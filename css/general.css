@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+:root {
+  --earth-dark: #3e2f2f;
+  --light-grey: #e5e5e5;
+  --lighter-grey: #f2f2f2;
+  --nature-green: #7ff06d;
+  --sky-blue: #a4efff;
+}
+
+body {
+  color: var(--earth-dark);
+}
