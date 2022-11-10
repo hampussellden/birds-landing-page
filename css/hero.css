@@ -1,0 +1,4 @@
+section.hero h2 {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}

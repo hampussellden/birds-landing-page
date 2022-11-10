@@ -17,6 +17,14 @@ html {
   --sky-blue: #a4efff;
 }
 
-body {
+body p,
+body h1,
+body h2,
+body h3,
+body h4,
+body li {
   color: var(--earth-dark);
+  font-family: "noto-sans";
+  margin-left: 24px;
+  margin-right: 24px;
 }
