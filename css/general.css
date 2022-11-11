@@ -16,7 +16,10 @@ html {
   --nature-green: #7ff06d;
   --sky-blue: #a4efff;
 }
-
+body {
+  padding: 0;
+  margin: 0 auto;
+}
 body p,
 body h1,
 body h2,
@@ -25,6 +28,4 @@ body h4,
 body li {
   color: var(--earth-dark);
   font-family: "noto-sans";
-  margin-left: 24px;
-  margin-right: 24px;
 }

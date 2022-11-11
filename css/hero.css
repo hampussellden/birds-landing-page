@@ -1,4 +1,103 @@
-section.hero h2 {
+section.hero {
+  position: relative;
+}
+section.hero div.hero-image {
+  width: 100%;
+  max-height: 640px;
+}
+div.hero-image img {
+  object-fit: fill;
+  width: 100%;
+  min-height: 220px;
+  max-height: 640px;
+}
+section.hero div.hero-image h2 {
   writing-mode: vertical-lr;
   text-orientation: upright;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  margin: 0px;
+}
+@media screen and (min-width: 360px) {
+  section.hero h2 {
+    visibility: hidden;
+  }
+  div.about-us-text h2 {
+    visibility: visible;
+  }
+}
+section.hero div.about-us {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 8px;
+}
+section.hero div.about-us img {
+  max-height: 180px;
+  max-width: 35%;
+}
+div.about-us-text h2 {
+  visibility: hidden;
+  height: 0%;
+  margin: 0;
+}
+div.about-us-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+div.about-us-text p {
+  margin: 0px;
+}
+@media screen and (min-width: 360px) {
+  section.hero div.about-us img {
+    visibility: hidden;
+    width: 0%;
+    height: 0%;
+  }
+  div.about-us-text h2 {
+    visibility: visible;
+    font-size: 1rem;
+    height: 100%;
+    margin: 0;
+  }
+  div.about-us-text h3 {
+    margin: 0;
+    font-size: 0.75rem;
+  }
+  div.about-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  div.about-us-text {
+    border-radius: 8px;
+    background-color: var(--light-grey);
+    width: 35%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    padding: 4px;
+  }
+  div.about-us-text p {
+    font-size: 0.65rem;
+    text-align: center;
+  }
+  div.about-us-text p.slogan {
+    font-style: italic;
+  }
+}
+@media screen and (min-width: 530px) {
+  div.about-us-text h2 {
+    font-size: 1.25rem;
+  }
+  div.about-us-text h3 {
+    font-size: 1rem;
+  }
+  div.about-us-text p {
+    font-size: 0.75rem;
+  }
 }
