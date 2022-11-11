@@ -17,7 +17,7 @@
 }
 
 .bird-info {
-    width: 160px;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -76,5 +76,11 @@
 
     .right {
         margin-left: 38px;
+    }
+
+    .bird-profile img{
+        height: 96px;
+        width: 96px;
+        
     }
 }
