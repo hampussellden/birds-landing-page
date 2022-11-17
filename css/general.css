@@ -30,3 +30,13 @@ body li {
   color: var(--earth-dark);
   font-family: "noto-sans";
 }
+div.testimonials-faq-container {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+@media screen and (min-width: 360px) {
+  div.testimonials-faq-container {
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+  }
+}

@@ -4,7 +4,9 @@ section.hero {
 section.hero img.hero-image {
   width: 100%;
   min-height: 220px;
+  max-height: 640px;
   object-fit: cover;
+  object-position: center 10%;
 }
 div.hero-image-container {
   background-color: var(--sky-blue);
@@ -19,7 +21,7 @@ h2.hero-title {
   text-orientation: upright;
   position: absolute;
   left: 16px;
-  top: 24px;
+  top: 16px;
   margin: 0px;
 }
 @media screen and (min-width: 360px) {
@@ -36,7 +38,6 @@ section.hero div.about-us {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0px 8px; */
   background-color: var(--sky-blue);
 }
 section.hero div.about-us img {
@@ -108,5 +109,27 @@ div.about-us-text p {
   }
   div.about-us-text p {
     font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  div.about-us-text h2 {
+    font-size: 1.5rem;
+  }
+  div.about-us-text h3 {
+    font-size: 1.25rem;
+  }
+  div.about-us-text p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1324px) {
+  div.about-us-text h2 {
+    font-size: 2rem;
+  }
+  div.about-us-text h3 {
+    font-size: 1.25rem;
+  }
+  div.about-us-text p {
+    font-size: 1.25rem;
   }
 }

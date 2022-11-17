@@ -5,6 +5,7 @@ section.testimonials {
   background-color: var(--nature-green);
   height: 200px;
   justify-content: center;
+  padding-bottom: 30px;
 }
 div.testimonials-scroller {
   max-width: 100vw;
@@ -16,6 +17,16 @@ div.testimonials-scroller {
   overflow-x: scroll;
   white-space: nowrap;
   padding-right: 24px;
+}
+@media screen and (min-width: 360px) {
+  section.testimonials {
+    flex-direction: column;
+  }
+  div.testimonials-scroller {
+    flex-direction: column;
+    overflow: visible;
+    white-space: wrap;
+  }
 }
 article.testimonial-container {
   display: flex;
