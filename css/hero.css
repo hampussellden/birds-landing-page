@@ -2,18 +2,19 @@ section.hero {
   position: relative;
 }
 
-div.hero-image img {
-  object-fit: fill;
+section.hero img.hero-image {
   width: 100%;
-  min-width: 360px;
+  min-height: 220px;
+  min-height: inherit;
+  object-fit: cover;
 }
 section.hero div.hero-image h2 {
   writing-mode: vertical-lr;
   text-orientation: upright;
   position: absolute;
-  left: 8px;
+  left: 24px;
   top: 8px;
-  margin: 0px;
+  margin: 0;
 }
 @media screen and (min-width: 360px) {
   section.hero h2 {
@@ -29,7 +30,7 @@ section.hero div.about-us {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 8px;
+  padding: 0px 8px;
   background-color: var(--sky-blue);
 }
 section.hero div.about-us img {
@@ -38,9 +39,7 @@ section.hero div.about-us img {
   margin: 0px 24px;
 }
 div.about-us-text h2 {
-  visibility: hidden;
-  height: 0%;
-  margin: 4px;
+  display: none;
 }
 div.about-us-text h3 {
   margin: 4px;
@@ -62,7 +61,7 @@ div.about-us-text p {
     height: 0%;
   }
   div.about-us-text h2 {
-    visibility: visible;
+    display: block;
     font-size: 1rem;
     height: 100%;
     margin: 0;
