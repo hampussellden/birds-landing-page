@@ -1,0 +1,29 @@
+section.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article.testimonials-container {
+  display: flex;
+  flex-direction: row;
+}
+div.testimonials-profile {
+  display: flex;
+  flex-direction: column;
+}
+div.testimonials-profile img {
+  height: 48px;
+  width: 48px;
+}
+div.testimonial-info {
+  display: flex;
+  flex-direction: column;
+}
+div.testimonial-title {
+  display: flex;
+  flex-direction: row;
+}
+div.stars {
+  display: flex;
+  flex-direction: row;
+}

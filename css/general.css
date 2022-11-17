@@ -13,12 +13,12 @@ html {
   --earth-dark: #3e2f2f;
   --light-grey: #e5e5e5;
   --lighter-grey: #f2f2f2;
-  --nature-green: #7ff06d;
-  --sky-blue: #a4efff;
+  --nature-green: #9bdc91;
+  --sky-blue: #a7d1da;
 }
 body {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
 }
 body p,
 body h1,

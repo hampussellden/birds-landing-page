@@ -1,15 +1,11 @@
 section.hero {
   position: relative;
 }
-section.hero div.hero-image {
-  width: 100%;
-  max-height: 640px;
-}
+
 div.hero-image img {
   object-fit: fill;
   width: 100%;
-  min-height: 220px;
-  max-height: 640px;
+  min-width: 360px;
 }
 section.hero div.hero-image h2 {
   writing-mode: vertical-lr;
@@ -30,26 +26,34 @@ section.hero div.hero-image h2 {
 section.hero div.about-us {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   margin: 0px 8px;
+  background-color: var(--sky-blue);
 }
 section.hero div.about-us img {
   max-height: 180px;
-  max-width: 35%;
+  max-width: 86%;
+  margin: 0px 24px;
 }
 div.about-us-text h2 {
   visibility: hidden;
   height: 0%;
-  margin: 0;
+  margin: 4px;
+}
+div.about-us-text h3 {
+  margin: 4px;
 }
 div.about-us-text {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
 }
 div.about-us-text p {
-  margin: 0px;
+  margin: 4px;
+  text-align: center;
 }
 @media screen and (min-width: 360px) {
   section.hero div.about-us img {
