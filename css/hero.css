@@ -1,23 +1,29 @@
 section.hero {
   position: relative;
 }
-
 section.hero img.hero-image {
   width: 100%;
   min-height: 220px;
-  min-height: inherit;
   object-fit: cover;
 }
-section.hero div.hero-image h2 {
+div.hero-image-container {
+  background-color: var(--sky-blue);
+}
+@media screen and (min-width: 360px) {
+  div.hero-image-container {
+    background-color: inherit;
+  }
+}
+h2.hero-title {
   writing-mode: vertical-lr;
   text-orientation: upright;
   position: absolute;
-  left: 24px;
-  top: 8px;
-  margin: 0;
+  left: 16px;
+  top: 24px;
+  margin: 0px;
 }
 @media screen and (min-width: 360px) {
-  section.hero h2 {
+  h2.hero-title {
     visibility: hidden;
   }
   div.about-us-text h2 {
@@ -30,7 +36,7 @@ section.hero div.about-us {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 8px;
+  /* padding: 0px 8px; */
   background-color: var(--sky-blue);
 }
 section.hero div.about-us img {
