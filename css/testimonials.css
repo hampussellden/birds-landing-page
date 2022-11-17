@@ -6,6 +6,17 @@ section.testimonials {
   height: 200px;
   justify-content: center;
 }
+div.testimonials-scroller {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: 24px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-right: 24px;
+}
 article.testimonial-container {
   display: flex;
   flex-direction: row;
@@ -72,4 +83,10 @@ svg.star.checked {
 }
 div.testimonial-info p {
   font-size: 1rem;
+}
+
+@media screen and (min-width: 360px) {
+  section.testimonials {
+    flex-direction: column;
+  }
 }
