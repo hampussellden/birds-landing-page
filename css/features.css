@@ -1,4 +1,8 @@
-
+.featured {
+    background-color: var(--sky-blue);
+    margin: 0;
+    position: relative;
+}
 
 .bird {
     height: 110px;

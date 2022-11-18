@@ -33,6 +33,7 @@ body li {
 div.testimonials-faq-container {
   display: grid;
   grid-template-rows: auto auto;
+  grid-template-columns: 100%;
 }
 @media screen and (min-width: 360px) {
   div.testimonials-faq-container {
