@@ -1,6 +1,7 @@
 .faq {
     display: flex;
     flex-direction: column;
+    background-color: var(--nature-green);
 }
 
 .faq article {
@@ -18,6 +19,7 @@
     border-radius: 16px;
     background-color: var(--earth-dark);
     cursor: pointer;
+    z-index: 1;
 }
 
 .question h4 {
@@ -35,8 +37,8 @@
     background-color: var(--light-grey);
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    z-index: -1;
-    filter: drop-shadow(0 -16px 0 var(--light-grey))
+    z-index: 0;
+    filter: drop-shadow(0 -16px 0 var(--light-grey));
 }
 
 .hidden {
@@ -58,5 +60,6 @@
         border-bottom-left-radius: 24px;
         border-bottom-right-radius: 23px;
         top: -48px;
+        filter: drop-shadow(0 -24px 0 var(--light-grey));
     }
 }
