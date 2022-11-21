@@ -18,9 +18,11 @@ div.testimonials-scroller {
   white-space: nowrap;
   padding-right: 24px;
 }
+
 @media screen and (min-width: 360px) {
   section.testimonials {
     flex-direction: column;
+    height: auto;
   }
   div.testimonials-scroller {
     flex-direction: column;
@@ -39,12 +41,6 @@ article.testimonial-container {
   background-color: var(--light-grey);
   filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.25));
 }
-article.testimonial-container p {
-  font-weight: 800;
-  margin: 0;
-  font-size: 0.75rem;
-}
-
 article.testimonial-container h4 {
   font-weight: 800;
   margin: 0;
@@ -53,6 +49,13 @@ article.testimonial-container h4 {
 div.testimonial-profile {
   display: flex;
   flex-direction: column;
+  align-self: center;
+}
+div.testimonial-profile p {
+  font-weight: 800;
+  margin: 0;
+  font-size: 0.75rem;
+  align-self: center;
 }
 div.testimonial-profile img {
   height: 48px;
@@ -72,6 +75,7 @@ div.testimonial-info p {
   font-weight: 400;
   width: 100%;
   flex: 1;
+  margin: 0px;
 }
 div.testimonial-title {
   display: flex;
@@ -95,9 +99,38 @@ svg.star.checked {
 div.testimonial-info p {
   font-size: 1rem;
 }
-
 @media screen and (min-width: 360px) {
-  section.testimonials {
-    flex-direction: column;
+  article.testimonial-container {
+    width: 520px;
+    height: 168px;
+  }
+  article.testimonial-container h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  div.testimonial-profile {
+  }
+  div.testimonial-profile p {
+    font-size: 1rem;
+  }
+  div.testimonial-profile img {
+    height: 96px;
+    width: 96px;
+    border-radius: 46px;
+  }
+  div.testimonial-info {
+    margin-left: 16px;
+  }
+  div.testimonial-info p {
+  }
+  div.testimonial-title {
+    height: 52px;
+  }
+  div.stars {
+    gap: 4px;
+  }
+  svg.star {
+    height: 24px;
+    width: 24px;
   }
 }
