@@ -68,7 +68,7 @@
   }
   .bird {
     height: 184px;
-    width: 522px;
+    width: 45vw;
     display: flex;
     background-color: var(--light-grey);
     margin: 16px auto;
