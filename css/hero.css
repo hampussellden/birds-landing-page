@@ -2,7 +2,7 @@ section.hero {
   position: relative;
 }
 section.hero img.hero-image {
-  width: 100%;
+  width: 100vw;
   min-height: 220px;
   max-height: 640px;
   object-fit: cover;
@@ -10,8 +10,9 @@ section.hero img.hero-image {
 }
 div.hero-image-container {
   background-color: var(--sky-blue);
+  margin-bottom: -6px;
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 780px) {
   div.hero-image-container {
     background-color: inherit;
   }
@@ -24,7 +25,7 @@ h2.hero-title {
   top: 16px;
   margin: 0px;
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 780px) {
   h2.hero-title {
     visibility: hidden;
   }
@@ -61,7 +62,7 @@ div.about-us-text p {
   margin: 4px;
   text-align: center;
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 780px) {
   section.hero div.about-us img {
     visibility: hidden;
     width: 0%;
@@ -100,7 +101,7 @@ div.about-us-text p {
     font-style: italic;
   }
 }
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 780px) {
   div.about-us-text h2 {
     font-size: 1.25rem;
   }
