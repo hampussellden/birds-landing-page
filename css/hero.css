@@ -123,14 +123,3 @@ div.about-us-text p {
     font-size: 1rem;
   }
 }
-@media screen and (min-width: 1324px) {
-  div.about-us-text h2 {
-    font-size: 2rem;
-  }
-  div.about-us-text h3 {
-    font-size: 1.25rem;
-  }
-  div.about-us-text p {
-    font-size: 1.25rem;
-  }
-}
