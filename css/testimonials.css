@@ -44,8 +44,8 @@ article.testimonial-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 224px;
-  height: 74px;
+  max-width: 224px;
+  max-height: 74px;
   padding: 8px;
   border-radius: 16px;
   background-color: var(--light-grey);
@@ -78,7 +78,6 @@ div.testimonial-info {
   display: flex;
   flex-direction: column;
   margin-right: 8px;
-  width: 100%;
   margin-left: 8px;
 }
 div.testimonial-info p {
@@ -108,15 +107,15 @@ svg.star.checked {
 }
 div.testimonial-info p {
   font-size: 1rem;
+  max-width: 50%;
 }
 @media screen and (min-width: 780px) {
   article.testimonial-container {
     min-width: 400px;
-    max-width: 620px;
+    max-width: 520px;
     max-height: 172px;
     width: auto;
     height: auto;
-    gap: 24px;
   }
   article.testimonial-container h4 {
     font-size: 1.5rem;
@@ -146,6 +145,7 @@ div.testimonial-info p {
   }
   div.testimonial-title {
     height: 52px;
+    max-width: 50%;
   }
   div.stars {
     gap: 4px;
