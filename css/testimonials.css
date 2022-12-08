@@ -29,6 +29,7 @@ div.testimonials-scroller::-webkit-scrollbar {
   section.testimonials {
     flex-direction: column;
     height: auto;
+    justify-content: flex-start;
   }
   div.testimonials-scroller {
     flex-direction: column;

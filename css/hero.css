@@ -57,6 +57,7 @@ div.about-us-text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 40px;
 }
 div.about-us-text p {
   margin: 4px;
