@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: var(--nature-green);
   padding-bottom: 40px;
+  align-items: center;
 }
 
 .faq h3 {
