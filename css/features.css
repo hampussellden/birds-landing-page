@@ -14,24 +14,24 @@
   height: 110px;
   width: 90%;
   display: flex;
-  background-color: var(--light-grey);
+  background-color: var(--lighter-grey);
   border-radius: 20px;
   margin: 16px auto;
   justify-content: space-around;
   align-items: center;
-  filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.25));
+  /* filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.25)); */
 }
 
 .left {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .left .bird-info {
-    margin: 16px 24px;
+  margin: 16px 24px;
 }
 
 .left .bird-profile {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .right {
@@ -40,7 +40,7 @@
 }
 
 .right .bird-profile {
-    margin: 16px 24px;
+  margin: 16px 24px;
 }
 
 .bird-info {
@@ -89,10 +89,8 @@
     height: 184px;
     width: 45vw;
     display: flex;
-    background-color: var(--light-grey);
     margin: 16px auto;
     align-items: center;
-    filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.25));
   }
 
   .left {
@@ -102,8 +100,6 @@
   .right {
     margin-left: 20px;
   }
-
-  
 
   .bird-profile img {
     height: 96px;

@@ -1,4 +1,3 @@
-
 section.hero {
   position: relative;
 }
@@ -93,7 +92,7 @@ div.about-us-text p {
     position: absolute;
     top: 20%;
     left: 10%;
-    padding: 4px;
+    padding: 16px;
   }
   div.about-us-text p {
     font-size: 0.65rem;
