@@ -4,10 +4,28 @@ footer {
 
 footer h3 {
     text-align: center;
+    margin-bottom: 8px;
 }
 
-footer nav ul {
+footer nav {
     display: flex;
-    justify-content: space-around;
-    margin: 5% 20%;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+footer li {
+    margin: 0 2vw;
+}
+
+@media screen and (min-width: 780px) {
+    footer svg {
+        width: 64px;
+        height: 64px;
+    }
 }
