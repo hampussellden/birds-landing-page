@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   z-index: 100;
-  filter: drop-shadow(-2px 2px 4px rgb(0,0,0,0.5));
+  filter: drop-shadow(-2px 2px 4px rgb(0, 0, 0, 0.5));
 }
 
 header {
@@ -43,6 +43,7 @@ header {
 header h1 {
   font-size: 1.5rem;
   margin-right: 8px;
+  margin-left: 16px;
 }
 header nav {
   width: 100%;
