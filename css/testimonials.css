@@ -17,16 +17,12 @@ div.testimonials-scroller {
   margin-left: 24px;
   overflow-y: hidden;
   overflow-x: scroll;
-  white-space: nowrap;
   padding-right: 24px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 div.testimonials-scroller::-webkit-scrollbar {
   display: none;
-}
-
-div.testimonials-scroller {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 @media screen and (min-width: 780px) {
@@ -37,15 +33,14 @@ div.testimonials-scroller {
   div.testimonials-scroller {
     flex-direction: column;
     overflow: visible;
-    white-space: wrap;
+    white-space: inherit;
   }
 }
 article.testimonial-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 224px;
-  max-height: 74px;
+  width: 90%;
   padding: 8px;
   border-radius: 16px;
   background-color: var(--light-grey);
@@ -82,9 +77,16 @@ div.testimonial-info {
 }
 div.testimonial-info p {
   font-weight: 400;
+  min-width: 160px;
   width: 100%;
-  flex: 1;
   margin: 0px;
+  font-size: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 div.testimonial-title {
   display: flex;
@@ -104,10 +106,6 @@ svg.star {
 }
 svg.star.checked {
   fill: yellow;
-}
-div.testimonial-info p {
-  font-size: 1rem;
-  max-width: 50%;
 }
 @media screen and (min-width: 780px) {
   article.testimonial-container {
@@ -136,16 +134,11 @@ div.testimonial-info p {
     margin-left: 16px;
   }
   div.testimonial-info p {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
     -webkit-line-clamp: 2;
     line-clamp: 2;
-    -webkit-box-orient: vertical;
   }
   div.testimonial-title {
     height: 52px;
-    max-width: 50%;
   }
   div.stars {
     gap: 4px;
