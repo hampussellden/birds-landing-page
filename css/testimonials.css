@@ -18,6 +18,15 @@ div.testimonials-scroller {
   white-space: nowrap;
   padding-right: 24px;
 }
+div.testimonials-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+div.testimonials-scroller {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 
 @media screen and (min-width: 360px) {
   section.testimonials {
