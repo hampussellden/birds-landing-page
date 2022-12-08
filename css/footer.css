@@ -1,5 +1,6 @@
 footer {
   background-color: var(--light-grey);
+  border-top: 1px solid var(--earth-dark);
 }
 
 footer h3 {
