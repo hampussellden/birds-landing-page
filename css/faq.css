@@ -43,8 +43,9 @@
     border-bottom-right-radius: 16px;
     z-index: 0;
     filter: drop-shadow(0 -16px 0 var(--light-grey));
-    margin: 8px;
+    padding: 0 16px;
 }
+
 
 .hidden {
     display: none;
