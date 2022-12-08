@@ -26,6 +26,7 @@ header {
   visibility: hidden;
   align-items: center;
   z-index: 99;
+  border-bottom: 1px solid var(--earth-dark);
 }
 @media screen and (min-width: 780px) {
   .hamburger {
