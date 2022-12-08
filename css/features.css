@@ -10,7 +10,7 @@
 
 .bird {
   height: 110px;
-  width: 312px;
+  width: 90%;
   display: flex;
   background-color: var(--light-grey);
   border-radius: 20px;
@@ -71,7 +71,6 @@
     width: 522px;
     display: flex;
     background-color: var(--light-grey);
-    border-radius: 8px;
     margin: 16px auto;
     justify-content: space-around;
     align-items: center;
