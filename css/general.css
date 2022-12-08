@@ -4,7 +4,7 @@
 html {
   font-size: 16px;
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 780px) {
   html {
     font-size: 24px;
   }
@@ -37,7 +37,7 @@ div.testimonials-faq-container {
   grid-template-rows: auto auto;
   grid-template-columns: 100%;
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 780px) {
   div.testimonials-faq-container {
     grid-template-rows: auto;
     grid-template-columns: 50% 50%;

@@ -1,94 +1,93 @@
 .featured {
-    background-color: var(--sky-blue);
-    margin: 0;
-    position: relative;
+  background-color: var(--sky-blue);
+  margin: 0;
+  position: relative;
 }
 
 .featured h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .bird {
-    height: 110px;
-    width: 312px;
+  height: 110px;
+  width: 312px;
+  display: flex;
+  background-color: var(--light-grey);
+  border-radius: 20px;
+  margin: 16px auto;
+  justify-content: space-around;
+  align-items: center;
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.25));
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+.bird-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bird-info * {
+  margin: 2px;
+}
+
+.bird-info h4 {
+  font-size: 1.5rem;
+}
+
+.bird-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bird-profile * {
+  margin: 2px;
+}
+
+.bird-profile img {
+  border-radius: 100%;
+  height: 64px;
+  width: 64px;
+  background-color: var(--nature-green);
+}
+
+.bird-profile p {
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 780px) {
+  .feature-box {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .bird {
+    height: 184px;
+    width: 522px;
     display: flex;
     background-color: var(--light-grey);
-    border-radius: 20px;
+    border-radius: 8px;
     margin: 16px auto;
     justify-content: space-around;
     align-items: center;
     filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.25));
-}
+  }
 
-.right {
-    flex-direction: row-reverse;
-}
+  .left {
+    margin-right: 38px;
+  }
 
-.bird-info {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+  .right {
+    margin-left: 38px;
+  }
 
-.bird-info * {
-    margin: 2px;
-}
-
-.bird-info h4 {
-    font-size: 1.5rem;
-}
-
-.bird-profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bird-profile * {
-    margin: 2px;
-}
-
-.bird-profile img {
-    border-radius: 100%;
-    height: 64px;
-    width: 64px;
-    background-color: var(--nature-green);
-}
-
-.bird-profile p {
-    font-size: 0.75rem;
-    font-weight: 800;
-}
-
-@media screen and (min-width: 360px) {
-    .feature-box {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    .bird {
-        height: 184px;
-        width: 522px;
-        display: flex;
-        background-color: var(--light-grey);
-        border-radius: 8px;
-        margin: 16px auto;
-        justify-content: space-around;
-        align-items: center;
-        filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.25));
-    }
-
-    .left {
-        margin-right: 38px;
-    }
-
-    .right {
-        margin-left: 38px;
-    }
-
-    .bird-profile img{
-        height: 96px;
-        width: 96px;
-        
-    }
+  .bird-profile img {
+    height: 96px;
+    width: 96px;
+  }
 }
