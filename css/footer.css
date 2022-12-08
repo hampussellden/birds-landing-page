@@ -1,3 +1,13 @@
 footer {
     background-color: var(--light-grey);
 }
+
+footer h3 {
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 20%;
+}
