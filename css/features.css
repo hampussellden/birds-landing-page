@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.featured h3 {
+    text-align: center;
+}
+
 .bird {
     height: 110px;
     width: 312px;
