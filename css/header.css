@@ -16,7 +16,7 @@
 header {
   height: 0px;
   width: 100%;
-  background-color: var(--light-grey);
+  background-color: var(--lighter-grey);
   position: fixed;
   top: 0;
   left: 0;

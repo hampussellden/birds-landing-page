@@ -87,7 +87,7 @@ div.about-us-text p {
   }
   div.about-us-text {
     border-radius: 8px;
-    background-color: var(--light-grey);
+    background-color: var(--lighter-grey);
     width: 35%;
     position: absolute;
     top: 20%;
