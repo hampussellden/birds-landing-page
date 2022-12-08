@@ -9,7 +9,8 @@
   align-items: center;
   justify-content: center;
   z-index: 100;
-  filter: drop-shadow(-2px 2px 4px rgb(0, 0, 0, 0.5));
+  border-left: 1px solid var(--earth-dark);
+  border-bottom: 1px solid var(--earth-dark);
 }
 
 header {
@@ -75,7 +76,7 @@ header nav ul li {
   }
 }
 header svg {
-  height: 48px;
-  width: 48px;
+  height: 32px;
+  width: 32px;
   margin-right: 24px;
 }
